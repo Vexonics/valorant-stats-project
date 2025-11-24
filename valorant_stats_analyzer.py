@@ -5,7 +5,7 @@ import random
 class ValorantStatsAnalyzer:
     def __init__(self, username, json_path):
         self.username = username
-        self.puuid = "SAMPLE_PUUID"   # using fake PUUID
+        self.puuid = "SAMPLE_PUUID"  
         self.json_path = json_path
         self.matches = []
         self.agent_stats = pd.DataFrame()
