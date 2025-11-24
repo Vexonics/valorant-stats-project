@@ -8,7 +8,7 @@ with open("/Users/adomboateng/valorant-stats-project/data/sample_matches.json") 
 username = input("Enter your Valorant username (e.g., Xen): ")
 puuid = "SAMPLE_PUUID_1234567890"  
 
-with open("data/sample_matches.json") as f:
+with open("/Users/adomboateng/valorant-stats-project/data/sample_matches.json") as f:
     data = json.load(f)
 
 matches = data["data"]
