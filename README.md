@@ -1,17 +1,17 @@
-Valorant Stats Project
-Setup
+**Valorant Stats Project
+**Setup
 
-Install dependencies:
-
+**Install dependencies:
+**
 pip install pandas matplotlib
 
-Run Stats
-python3 test.py
+**Run Stats
+**python3 test.py
 
-Visualize
+**Visualize**
 python3 visualize.py
 Data
 
-Place your JSON match data into:
-
+**Place your JSON match data into:
+**
 data/sample_matches.json
