@@ -8,9 +8,6 @@ stats = ValorantStatsAnalyzer(
     username=username
 )
 
-# PUUID is already set in the constructor
-# stats.puuid = stats.detect_puuid()  <-- REMOVE this line
-
 stats.fetch_matches()
 stats.process_stats()
 winrates = stats.calculate_win_rates()
